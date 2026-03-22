@@ -2,6 +2,10 @@ body {
     background-color: rgb(130, 233, 233);
 }
 
+.text-box {
+    text-align: center;
+}
+
 .text-box h3:first-of-type {
     color: pink;
 }
