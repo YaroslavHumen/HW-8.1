@@ -1,5 +1,9 @@
+body {
+    background-color: rgb(130, 233, 233);
+}
+
 .text-box h3:first-of-type {
-    color: pink;    
+    color: pink;
 }
 
 #greycol {
@@ -7,13 +11,115 @@
 }
 
 .text-box div:last-of-type {
-    color: red;    
+    color: red;
 }
 
 .text-box p:nth-last-of-type(2) {
-    color: green;    
+    color: green;
 }
 
 .yellow {
-    color: yellow;    
+    color: yellow;
+}
+
+/* Завдання 2. Розклад */
+
+.schedule {
+    border-collapse: collapse;
+    margin: 20px 70px;
+    width: 90%;
+    background-color: #212121;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(230, 251, 126, 0.355);
+}
+
+.schedule th,
+.schedule td {
+    padding: 8px;
+    border: 1px solid #767474;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.day th:focus,
+.lesson1 td:focus {
+    background-color: rgb(95, 33, 131);
+    color: rgb(255, 255, 255);
+}
+
+.table h1 {
+    text-align: center;
+    color: aqua;
+    text-transform: uppercase;
+}
+
+h1:focus {
+    color: red;
+}
+
+.day th:hover {
+    background-color: rgb(21, 3, 181);
+    color: aliceblue;
+    
+}
+
+td:hover {
+    background-color: rgb(14, 163, 143);
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(230, 251, 126, 0.477);
+
+
+    transition: 0.2s;
+}
+
+.day {
+    background-color: #525252;
+    color: rgb(112, 176, 161);
+    text-transform: uppercase;
+}
+
+.lesson0 {
+    color: pink;
+}
+
+.lesson1 {
+    color: rgba(126, 207, 98, 0.615);
+}
+
+.lesson2 {
+    color: rgba(219, 253, 95, 0.729);
+}
+
+.lesson3 {
+    color: rgba(255, 82, 34, 0.688);
+}
+
+.lesson3 td:last-of-type:active {
+    background-color: red;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.lesson4 {
+    color: rgb(0, 157, 255);
+}
+
+.lesson5 {
+    color: rgb(165, 97, 42);
+}
+
+.lesson6 {
+    color: rgb(57, 193, 93);
+}
+
+.lesson7 {
+    color: rgb(128, 165, 42);
+}
+
+.table {
+    background-color: rgba(4, 0, 53, 0.516);
+    padding: 30px 0;
 }
